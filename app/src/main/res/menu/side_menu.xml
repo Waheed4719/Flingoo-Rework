@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="ENTERTAINMENT"
+        android:id="@+id/menu_group1"
+        >
+        <menu>
+            <item
+                android:title="Gaming"
+                android:id="@+id/gaming"
+                android:icon="@drawable/controller_blue" />
+
+            <item
+                android:title="Movies"
+                android:icon="@drawable/movies_blue"/>
+
+            <item
+                android:title="Books"
+                android:icon="@drawable/book_blue" />
+
+        </menu>
+
+    </item>
+
+    <item android:title="USER"
+        android:id="@+id/menu_group2">
+        <menu>
+            <item
+                android:title="Logout"
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"/>
+
+        </menu>
+
+
+
+    </item>
+
+
+
+</menu>

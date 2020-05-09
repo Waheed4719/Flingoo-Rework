@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+
+    Create Style in styles.xml
+
+    <style name="Style_TextView">
+        <item name="fontFamily">@font/convergence</item>
+        <item name="android:textColor">@color/bluelight</item>
+    </style>
+
+
+
+</resources>

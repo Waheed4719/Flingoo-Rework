@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="140dp"
+    android:layout_height="185dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_design"
+    app:cardCornerRadius="8dp"
+    android:layout_marginHorizontal="10dp"
+    app:cardElevation="8dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/snow"
+        >
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:id="@+id/image"
+            android:background="@drawable/tony"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:fontFamily="@font/convergence"
+            android:text="One last dance"
+            android:textAlignment="center"
+
+            android:textSize="14dp"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Waheed Ahmed"
+            android:textSize="12dp"
+            android:id="@+id/author"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

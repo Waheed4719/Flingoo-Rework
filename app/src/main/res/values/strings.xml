@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Practice</string>
+    <string name="openNavDrawer">Navigation Drawer Open</string>
+    <string name="closeNavDrawer">Navigation Drawer Close</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="places_api_key">AIzaSyAXSyvV8rdno0F6KVL8U22FGkLssN74XAg</string>
+</resources>
